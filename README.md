@@ -1,7 +1,7 @@
 # Vehicle-Information-App
 
 # Main page/Home Tab
-index.html
+    index.html
 
 # Pages/Tab
     Search Tab : search.html    //for displaying search history
