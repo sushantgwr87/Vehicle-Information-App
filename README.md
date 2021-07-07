@@ -1,24 +1,48 @@
-# Vehicle-Information-App
+# Vehicle Information App
 
-# Main page/Home Tab
-    index.html
+A PWA (Progressive Web App) to display vehicle details using its number plate.
 
-# Pages/Tab
-    Search Tab : search.html    //for displaying search history
-    Detail Tab : detail.html    //for displaying details of searched car number plate
-    new_data Tab: new_data.html //for adding new data
+Current Version works on local database.
 
-# JS Files 
-    db.js              //for database
-    app.js             //for app work
-    ui.js              //for ui work
-    sws.js             //for service workers
-    materilaize.min.js //Materilize file to add materilaize.js library
+## Files Description
 
-# CSS File : 
-    Style.css           //for styling app
-    materialize.min.css //for using materilaize effects and classes
-    
-# Database
-    Firebase database is used to comply for online database.
-    Firebase auth and initilialisation file are not included with repo to avoid plagiarism with database data.
+### HTMLPages
+
+#### Search history
+search.html
+
+#### Details Display
+detail.html
+
+#### New Data addition
+new_data.html
+
+### JS Files
+
+#### Database Handling
+db.js
+
+#### General app working backened
+app.js
+
+#### UI working
+ui.js
+
+#### Service Workers backened
+sws.js
+
+### CSS Files
+style.css files contains all general and normal styling done by me. Materialize framework is used for quick design.
+
+## Database
+Firebase's firestore database is used in this app for cloud storage.
+
+#### Note
+Database initialization and it's authorization files are not added in this repo.
+
+For details regarding initialization and authorization do check the youtube channel playlist acknowledged here.
+## Acknowledgements
+This work is inspired from **Net Ninja's playlist** of PWA using firebase.
+
+ - [The Net Ninja youtube Playlist](https://youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7)
+ - [Net Ninja Github(iamshaunjp)](https://github.com/iamshaunjp)
